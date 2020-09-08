@@ -1,0 +1,29 @@
+.main-nav{
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0;
+    background-color: rgb(252, 172, 172);
+}
+
+.main-nav__item{
+    display: inline-block;
+}
+
+.main-nav__item a{
+    font-size: 1.5em;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.main-nav__item a:hover{
+    color: rgb(43, 19, 177);
+    padding: 5px;
+    text-decoration: none;
+}
+
+.main-nav__item a:active{
+    color: rgb(43, 19, 177);
+    padding: 5px;
+    text-decoration: none;
+}
