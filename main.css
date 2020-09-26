@@ -5,7 +5,7 @@
 }
 
 html{
-    font-size: 62.5%;
+   
 }
 
 
@@ -61,16 +61,11 @@ main figure{
 
 .logo{
     margin-top: 20vh;
-    max-width: 20rem;
+    max-width: 2rem;
     min-width: 15rem;
 
 }
 
-.input {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-}
 
 .searcher{
     outline: none;
@@ -88,7 +83,7 @@ section{
 .input{
     margin-top: 3vh;
     width: 90vw;
-    max-width: 40rem;
+    max-width: 35rem;
     height: 3rem;
     border-radius: 100px;
     border: solid 1px #dcdcdd;
@@ -138,13 +133,13 @@ section{
 }
 
 button{
-    height: 2.5rem;
-    padding-left: 5px;
-    padding-right: 5px;
+    height: 34px;
+    padding-left: 16px;
+    padding-right: 16px;
     border: solid 1px #dcdcdd ;
     border-radius: 2px;
     color: #5F6368;
-    font-size: 1rem;
+    font-size: .8rem;
 }
 
 button:hover{
@@ -168,5 +163,71 @@ button:hover{
 }
 
 footer{
+    width: 100vw;
+    height: 10vh;
+    background-color: #F2F2F2;
+    position: absolute;
+    bottom: 0;
+    color: #6F6F6F;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
 
+.pais{
+    display: inline-block;
+    height: 50%;
+    width: 100%;
+    border: solid 1px #E4E4E4;
+    padding: 10px;
+}
+
+.footer-nav{
+    display: flex;
+    align-items: center;
+    height: 50%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border: solid 1px #E4E4E4;
+
+}
+
+.footer-left{
+    display: flex;
+    margin-left: -12px;
+}
+
+.footer-right{
+    display: flex;
+    margin-right: 10px;
+}
+
+@media (max-width: 720px) {
+    .footer-nav{
+        justify-content: center;
+    }
+    .pais{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 420px) {
+
+    .footer-left{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 5px;
+    }
+    .footer-right{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-bottom: 5px;
+    }
+
+    .search-icon{
+        margin-left: 10
+        px;
+    }
 }
